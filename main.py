@@ -7,7 +7,7 @@ from twilio.rest import Client
 # proxy_client.session.proxies = {"https": os.environ["https_proxy"]} # for hosted code
 
 # region Constants used for the weather API
-API_KEY = "f8df68f34bb1df4681ca0dbd53e56e5c"
+API_KEY = ""
 LONG = 72.8479
 LAT = 19.0144
 city = "Mumbai"
