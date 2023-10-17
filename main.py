@@ -71,3 +71,6 @@ weather_data = get_hourly_weather()
 will_it_rain(weather_data)
 
 # send_message()
+
+
+git config --global user.email "007shubham007@gmail.com"
