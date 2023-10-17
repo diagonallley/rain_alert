@@ -14,8 +14,8 @@ city = "Mumbai"
 
 # URL = "https://api.openweathermap.org/data/2.5/weather"
 URL = "https://api.openweathermap.org/data/2.5/onecall"
-ACCOUNT_SID = "AC1d880e4709af6139d7198b7a0c60d556"
-AUTH_TOKEN = "f1d8f733cf6d625cc48d5d17224a9071"
+ACCOUNT_SID = ""
+AUTH_TOKEN = ""
 # endregion
 
 
@@ -43,7 +43,7 @@ def send_message() -> None:
     '''
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
     message = client.messages.create(
-        to="+918369789524", from_="+12245854646", body="Hi,\nIt will rain🌧️ today.Remember to take an umbrella ☂️ today!")
+        to="", from_="", body="Hi,\nIt will rain🌧️ today.Remember to take an umbrella ☂️ today!")
 
     print(message.sid)
 
